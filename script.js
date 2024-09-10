@@ -20,11 +20,10 @@ window.addEventListener("load", function () {
     .then(function () {
       console.log(listedPlanets);
       // Below this comment call the appropriate helper functions to pick a planet fom the list of planets and add that information to your destination.
-      //add eventlistener for submit
+
       addDestinationInfo(pickPlanet(listedPlanets));
 
-      /* @@@@@   What is the event listener doing here? 
-@@@@@    Doing something wrong with the fetch. Console logs on lines 18 and 21 are coming up undefined.
+      /* @@@@@    Doing something wrong with the fetch. Console logs on lines 18 and 21 are coming up undefined.
 @@@@@    Issue back with doing the refresh again. Where to put preventDefault()?
 @@@@@    Broke something in scriptHelper? fails npm test for updating if fuel too low or cargo too high
 Will be able to better diagnose likely when can stop the reload issue.*/
