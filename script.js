@@ -26,7 +26,8 @@ window.addEventListener("load", function () {
       /* @@@@@    Doing something wrong with the fetch. Console logs on lines 18 and 21 are coming up undefined.
 @@@@@    Issue back with doing the refresh again. Where to put preventDefault()?
 @@@@@    Broke something in scriptHelper? fails npm test for updating if fuel too low or cargo too high
-Will be able to better diagnose likely when can stop the reload issue.*/
+Will be able to better diagnose likely when can stop the reload issue.
+*/
     });
 
   const launchForm = document.getElementById("launchForm");
